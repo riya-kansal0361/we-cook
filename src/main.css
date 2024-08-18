@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.noScroll::-webkit-scrollbar {
+  display: none;
+}
+
+.line_rounder {
+  @apply relative block w-2 h-2 bg-gray-300 rounded-full mt-[0.4rem];
+}
+.line {
+  @apply block w-0.5 h-1/2 bg-gray-300 ml-[0.15rem];
+}
+.line_rounder_2 {
+  @apply relative block w-2 h-2 bg-gray-300 rounded-full;
+}
